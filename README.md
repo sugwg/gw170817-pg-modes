@@ -35,10 +35,10 @@ and posterior distribution data. All of the files contain the thinned chained of
 The data files are:
 
 1. [gaussian_small_f0_range.hdf](https://github.com/sugwg/gw170817-pg-modes/blob/master/gaussian_small_f0_range.hdf), the Gaussian mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling ($A$) between 10<sup>-10</sup> and 10<sup>-6</sup>, and frequency evolution exponent (n) between -1.1 and 2.999.
-2. [gaussian_large_f0_range.hdf](https://github.com/sugwg/gw170817-pg-modes/blob/master/gaussian_large_f0_range.hdf), the Gaussian mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between $10<sup>10</sup> and 10<sup>-6<sup>, and frequency evolution exponent ($n$) between -1.1 and 2.999.
+2. [gaussian_large_f0_range.hdf](https://github.com/sugwg/gw170817-pg-modes/blob/master/gaussian_large_f0_range.hdf), the Gaussian mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between $10<sup>10</sup> and 10<sup>-6</sup>, and frequency evolution exponent ($n$) between -1.1 and 2.999.
 3. [uniform_small_f0_range.hdf](https://github.com/sugwg/gw170817-pg-modes/blob/master/uniform_small_f0_range.hdf), the uniform mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling ($A$) between 10<sup>-10</sup> and 10<sup>-6</sup>, and frequency evolution exponent (n) between -1.1 and 2.999. 
 4. [uniform_large_f0_range.hdf](https://github.com/sugwg/gw170817-pg-modes/blob/master/uniform_large_f0_range.hdf), the uniform mass distribution in c
-ommon with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between $10<sup>10</sup> and 10<sup>-6<sup>, and frequency evolution exponent ($n$) between -1.1 and 2.999. 
+ommon with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between $10<sup>10</sup> and 10<sup>-6</sup>, and frequency evolution exponent ($n$) between -1.1 and 2.999. 
 
 ## Notebooks
 
