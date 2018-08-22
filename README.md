@@ -17,17 +17,18 @@ This notebook is a companion to the paper presented at [arXiv:1808.07013](https:
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Reyes2008,
+@article{Reyes:2018bee,
       author         = "Reyes, Steven and Brown, Duncan A.",
-      title          = "{Constraints on non-linear tides due to $p$-$g$ mode 
-                         coupling from the neutron-star merger GW170817}",
+      title          = "{Constraints on non-linear tides due to $p$-$g$ mode
+                        coupling from the neutron-star merger GW170817}",
       year           = "2018",
       eprint         = "1808.07013",
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.HE",
-      SLACcitation   = "%%CITATION = ARXIV:1808.XXXXX;%%"
+      SLACcitation   = "%%CITATION = ARXIV:1808.07013;%%"
 }
 ```
+
 ## Data
 We provide the data from thinned posterior samples from the MCMC chains used to produce Bayes factor calculations
 and posterior distribution data. All of the files contain the thinned chained of the posterior samples using the sky localization constraint, chirp mass constraint, common equation of state constraint from [De et al. (2018)](https://arxiv.org/abs/1804.08583), with mass distribution prior distributions for each of the binary neutron stars from [De et al. (2018)](https://arxiv.org/abs/1804.08583). Each file refers to two different mass priors from [De et al. (2018)](https://arxiv.org/abs/1804.08583) and with different choices of the range of f<sub>0</sub>, the turn-on frequency of the p-g mode energy loss.
@@ -42,7 +43,7 @@ ommon with De et al. (2018), but with p-g mode instability parameters: saturatio
 
 ## Notebooks
 
-An ipython notebook is provided, [pg_mode_notebook.ipynb](https://github.com/sugwg/gw170817-pg-modes/blob/master/pg_mode_notebook.ipynb) for regenerating the plots used in "Constraints on non-linear tides due to p-g mode coupling from the neutron-star merger GW170817", with some additional posterior plots. All results are generated using the [PyCBC v1.9.4 release](https://github.com/gwastro/pycbc/releases/tag/v1.9.4) with the addition of a [patch to fix the stationary phase approximation for the effect of nonlinear tides](https://github.com/gwastro/pycbc/pull/2284). The prior distribution plots, Bayes factor calculations, and posterior distribution plots can be generated using the [PyCBC v1.9.4 release](https://github.com/gwastro/pycbc/releases/tag/v1.9.4) with the addition of a [patch to allow logarithmic spaced histograms in posterior plots](https://github.com/gwastro/pycbc/pull/2285).
+An ipython notebook is provided, [pg_mode_notebook.ipynb](https://github.com/sugwg/gw170817-pg-modes/blob/master/pg_mode_notebook.ipynb) for regenerating the plots used in "Constraints on non-linear tides due to p-g mode coupling from the neutron-star merger GW170817", with some additional posterior plots. All results are generated using the [PyCBC v1.9.4 release](https://github.com/gwastro/pycbc/releases/tag/v1.9.4) with the addition of a [patch to fix the stationary phase approximation for the effect of nonlinear tides](https://github.com/gwastro/pycbc/pull/2284). The prior distribution plots, Bayes factor calculations, and posterior distribution plots can be generated using the [PyCBC v1.9.4 release](https://github.com/gwastro/pycbc/releases/tag/v1.9.4) with the addition of a [patch to allow logarithmic spaced histograms in posterior plots](https://github.com/gwastro/pycbc/pull/2285). These patches have been merged into the master branch of PyCBC.
 
 ## Acknowledgements
 We thank Soumi De and Daniel Finstad for helpful discussions. We thank Alex Nitz for writing the initial version of
