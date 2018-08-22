@@ -51,4 +51,4 @@ the code for non-linear tides in PyCBC.
 ## Funding
 The authors were supported by the National Science Foundation grant PHY-1707954.
 Computational work was supported by Syracuse University and National Science Foundation grant OAC-1541396.
-This research has made use of data obtained from the  [LIGO Open Science Center](http://www.losc.org).
+This research has made use of data obtained from the  [LIGO Open Science Center](http://losc.ligo.org).
