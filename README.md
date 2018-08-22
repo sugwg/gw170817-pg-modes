@@ -19,7 +19,8 @@ We encourage use of these data in derivative works. If you use the material prov
 ```
 @article{Reyes2008,
       author         = "Reyes, Steven and Brown, Duncan A.",
-      title          = "{Constraints on non-linear tides due to $p$-$g$ mode coupling from the neutron-star merger GW170817}",
+      title          = "{Constraints on non-linear tides due to $p$-$g$ mode 
+                         coupling from the neutron-star merger GW170817}",
       year           = "2018",
       eprint         = "1808.XXXXX",
       archivePrefix  = "arXiv",
