@@ -12,7 +12,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 
 ## Introduction
 
-This notebook is a companion to the paper presented at [arXiv:1808.XXXXX](https://arxiv.org/1808.XXXXX). It demonstrates how to make the figures in the paper and compute the Bayes factors comparing the analyses with and without the effect of nonlinear tides.
+This notebook is a companion to the paper presented at [arXiv:1808.07013](https://arxiv.org/abs/1808.07013). It demonstrates how to make the figures in the paper and compute the Bayes factors comparing the analyses with and without the effect of nonlinear tides.
 
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
@@ -22,7 +22,7 @@ We encourage use of these data in derivative works. If you use the material prov
       title          = "{Constraints on non-linear tides due to $p$-$g$ mode 
                          coupling from the neutron-star merger GW170817}",
       year           = "2018",
-      eprint         = "1808.XXXXX",
+      eprint         = "1808.07013",
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph.HE",
       SLACcitation   = "%%CITATION = ARXIV:1808.XXXXX;%%"
