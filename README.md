@@ -40,13 +40,13 @@ The set of data files is the thinned full-power-posterior MCMC runs. They contai
 
 We list the files below with the corresponding prior-distribution choices for the file. All of the files use the  common equation of state tidal deformability in common with De et al. (2018).
 
-1. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $800$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to this prior. The file is: `thinned_results_files/gauss_broad_f0.hdf`
+1. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to this prior. The file is: `thinned_results_files/gauss_broad_f0.hdf`
 
-2. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to ths prior. The file is: `thinned_results_files/gauss_narrow_f0.hdf`
+2. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to ths prior. The file is: `thinned_results_files/gauss_narrow_f0.hdf`
 
-3. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $800$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to ths prior. The file is: `thinned_results_files/uni_broad_f0.hdf`
+3. The uniform mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint applied to this prior. The file is: `thinned_results_files/uni_broad_f0.hdf`
 
-4. The files below represent 9 runs of the same analysis but with different random seeds chosen for the analysis. The uniform mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to this prior. The files are:
+4. The files below represent 9 runs of the same analysis but with different random seeds chosen for the analysis. The uniform mass distribution in common with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to ths prior. The files are:
 
  a. `thinned_results_files/uni_narrow_f0_v1.hdf`
 
@@ -66,7 +66,7 @@ We list the files below with the corresponding prior-distribution choices for th
 
  i. `thinned_results_files/uni_narrow_f0_v9.hdf`
  
-5. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $10$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-5.5}$, and spectral index ($n$) between $-1$ and $2.999$. There is no $\delta \phi$ constraint applied to ths prior. This analysis is meant to be similar to the p-g mode study conducted in `Abbott, B. et al. 2019, Physical Review Letters, 122, 061104`. The file is: `thinned_results_files/lvc_sim.hdf`
+5. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 10 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-5.5</sup>, and spectral index (n) between -1 and 2.999. There is no delta phi constraint applied to ths prior. This analysis is meant to be similar to the p-g mode study conducted in `Abbott, B. et al. 2019, Physical Review Letters, 122, 061104`. The file is: `thinned_results_files/lvc_sim.hdf`
 
 6. The thinned, full 51 temperature power posterior MCMC file from De et al. (2018) for the Gaussian mass distribution with common equation of state constraint. The file is presented here for convenience as: `thinned_results_files/gauss_ceos.hdf`
 
@@ -79,7 +79,7 @@ This set of data pertains to a particular prior choice on p-g mode parameters th
 
 There are 9 runs in total. The runs are only different in that they used different random seeds for the analysis.
 
-The prior choice for these runs: The common equation of state tidal deformability and uniform mass distribution are in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to these analysis.
+The prior choice for these runs: The common equation of state tidal deformability and uniform mass distribution are in common with De et al. (2018), , but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to ths prior.
 
 These files contain the keys: `['amplitude', 'dphi', 'f0', 'logl', 'mass1', 'mass2', 'max_mass1', 'max_mass2', 'max_match', 'n']`, where `amplitude`, `dphi`, `f0`, `n`, `mass1`, `mass2`, denote the parameter values from the MCMC run. The key, `logl`, denotes the log-likelihood of the parameter relative to the data. The other four parameters refer to the fitting factor relative to a non-spinning, mass-only template bank. The key, `max_match` refers to the maximum match between one of these templates and the particular MCMC parameter. The keys, `max_mass1` and `max_mass2` refer to the mass pair in the template bank that had the maximum match with the MCMC tuple. The inverse-temperatures can be found in the previous files. Matching proper temperatures to the proper samples is done in example scripts below.
 
@@ -112,13 +112,13 @@ We also present the template bank used to conduct this analysis. The LIGO Living
 
 The next set of data files are evidence-convergence files that show the evidence in the MCMC analyses as a function of MCMC iteration. These were generated as a means to track the convergence of the evidence of the analyses.
 
-1. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $800$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to this prior. The file is: `evidence_convergence_files/gauss_broad_f0_evidence_convergence.hdf`
+1. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to this prior. The file is: `evidence_convergence_files/gauss_broad_f0_evidence_convergence.hdf`
 
-2. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to ths prior. The file is: `evidence_convergence_files/gauss_narrow_f0_evidence_convergence.hdf`
+2. The Gaussian mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to ths prior. The file is: `evidence_convergence_files/gauss_narrow_f0_evidence_convergence.hdf`
 
-3. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $800$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to ths prior. The file is: `evidence_convergence_files/uni_broad_f0_evidence_convergence.hdf`
+3. The uniform mass distribution is shared with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 800 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint applied to this prior. The file is: `evidence_convergence_files/uni_broad_f0_evidence_convergence.hdf`
 
-4. The files below represent 9 runs of the same analysis but with different random seeds chosen for the analysis. The uniform mass distribution in common with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $15$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-6}$, and spectral index ($n$) between $-1.1$ and $2.999$. There is a $\delta \phi > 0.1$ radians constraint also applied to this prior. The files are
+4. The files below represent 9 runs of the same analysis but with different random seeds chosen for the analysis. The uniform mass distribution in common with De et al. (2018), but with the additional p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 15 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-6</sup>, and spectral index (n) between -1.1 and 2.999. There is a delta phi > 0.1 radians constraint also applied to ths prior. The files are
 
  a. `evidence_convergence_files/uni_narrow_f0_v1_evidence_convergence.hdf`
 
@@ -138,7 +138,7 @@ The next set of data files are evidence-convergence files that show the evidence
 
  i. `evidence_convergence_files/uni_narrow_f0_v9_evidence_convergence.hdf`
  
-5. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency ($f_0$) between $10$ and $100$ Hz, amplitude scaling ($A$) between $10^{-10}$ and $10^{-5.5}$, and spectral index ($n$) between $-1$ and $2.999$. There is no $\delta \phi$ constraint applied to ths prior. This analysis is meant to be similar to the p-g mode study conducted in `Abbott, B. et al. 2019, Physical Review Letters, 122, 061104`. The file is: `evidence_convergence_files/lvc_sim_evidence_convergence.hdf`
+5. The uniform mass distribution is shared with De et al. (2018), but with p-g mode instability parameters: saturation frequency (f<sub>0</sub>) between 10 and 100 Hz, amplitude scaling (A) between 10<sup>-10</sup> and 10<sup>-5.5</sup>, and spectral index (n) between -1 and 2.999. There is no delta phi constraint applied to ths prior. This analysis is meant to be similar to the p-g mode study conducted in `Abbott, B. et al. 2019, Physical Review Letters, 122, 061104`. The file is: `evidence_convergence_files/lvc_sim_evidence_convergence.hdf`
 
 6. The thinned, full 51 temperature power posterior MCMC file from De et al. (2018) for the Gaussian mass distribution with common equation of state constraint. The file is presented here for convenience as: `evidence_convergence_files/gauss_ceos_evidence_convergence.hdf`
 
@@ -148,14 +148,14 @@ The next set of data files are evidence-convergence files that show the evidence
 
 The last data file is a convenience posterior-only file that combines 9 analyses together into one posterior file.
 
-1. This file is `combined_posterior_file/only_posterior_9_combined_uni_narrow_f0.hdf`. It only contains samples from the posterior, $\beta=1$, in the parallel tempering analyses. It is used for the posterior plotting for Figure 3.
+1. This file is `combined_posterior_file/only_posterior_9_combined_uni_narrow_f0.hdf`. It only contains samples from the posterior, beta=1, in the parallel tempering analyses. It is used for the posterior plotting for Figure 3.
 
 ## Notebooks
 
 An ipython notebook is provided, [pg_mode_notebook.ipynb](https://github.com/sugwg/gw170817-pg-modes/blob/master/pg_mode_notebook.ipynb) for regenerating the plots used in "Constraints on nonlinear tides due to p-g mode coupling from the neutron-star merger GW170817", with some additional posterior plots. All results are generated using the [PyCBC v1.12.3 release](https://github.com/gwastro/pycbc/releases/tag/v1.12.3).
 
 ## Acknowledgements
-We thank Reed Essick, and Nevin Weinberg for helpful discussion and pointing out errors in our Bayes factor calculation in an earlier draft of the arXiv manuscript~\citep{Essick:2018wvj}. We thank Chaitanya Afle, Nils Andersson, Soumi De, Daniel Finstad, and Pantelis Pnigouras for helpful discussions. We thank Alex Nitz for writing the initial version of the code for nonlinear tides in PyCBC.
+We thank Reed Essick, and Nevin Weinberg for helpful discussion and pointing out errors in our Bayes factor calculation in an earlier draft of the arXiv manuscript (Essick & Weinberg (2018) "A Comparison of pg Tidal Coupling Analyses"). We thank Chaitanya Afle, Nils Andersson, Soumi De, Daniel Finstad, and Pantelis Pnigouras for helpful discussions. We thank Alex Nitz for writing the initial version of the code for nonlinear tides in PyCBC.
 
 ## Funding
 The authors were supported by the National Science Foundation grant PHY-1707954. Computational work was supported by Syracuse University and National Science Foundation grant OAC-1541396. This research has made use of data obtained from the [Gravitational Wave Open Science Center](https://www.gw-openscience.org/about/).
